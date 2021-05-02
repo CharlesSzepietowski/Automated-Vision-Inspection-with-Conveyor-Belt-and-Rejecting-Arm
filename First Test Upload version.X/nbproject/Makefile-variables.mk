@@ -1,0 +1,41 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# XC8_18F87K22 configuration
+CND_ARTIFACT_DIR_XC8_18F87K22=dist/XC8_18F87K22/production
+CND_ARTIFACT_NAME_XC8_18F87K22=First_Test_Upload_version.X.production.hex
+CND_ARTIFACT_PATH_XC8_18F87K22=dist/XC8_18F87K22/production/First_Test_Upload_version.X.production.hex
+CND_PACKAGE_DIR_XC8_18F87K22=${CND_DISTDIR}/XC8_18F87K22/package
+CND_PACKAGE_NAME_XC8_18F87K22=firsttestuploadversion.x.tar
+CND_PACKAGE_PATH_XC8_18F87K22=${CND_DISTDIR}/XC8_18F87K22/package/firsttestuploadversion.x.tar
+# XC8_18F1220 configuration
+CND_ARTIFACT_DIR_XC8_18F1220=dist/XC8_18F1220/production
+CND_ARTIFACT_NAME_XC8_18F1220=First_Test_Upload_version.X.production.hex
+CND_ARTIFACT_PATH_XC8_18F1220=dist/XC8_18F1220/production/First_Test_Upload_version.X.production.hex
+CND_PACKAGE_DIR_XC8_18F1220=${CND_DISTDIR}/XC8_18F1220/package
+CND_PACKAGE_NAME_XC8_18F1220=firsttestuploadversion.x.tar
+CND_PACKAGE_PATH_XC8_18F1220=${CND_DISTDIR}/XC8_18F1220/package/firsttestuploadversion.x.tar
+# XC8_18F14K50 configuration
+CND_ARTIFACT_DIR_XC8_18F14K50=dist/XC8_18F14K50/production
+CND_ARTIFACT_NAME_XC8_18F14K50=First_Test_Upload_version.X.production.hex
+CND_ARTIFACT_PATH_XC8_18F14K50=dist/XC8_18F14K50/production/First_Test_Upload_version.X.production.hex
+CND_PACKAGE_DIR_XC8_18F14K50=${CND_DISTDIR}/XC8_18F14K50/package
+CND_PACKAGE_NAME_XC8_18F14K50=firsttestuploadversion.x.tar
+CND_PACKAGE_PATH_XC8_18F14K50=${CND_DISTDIR}/XC8_18F14K50/package/firsttestuploadversion.x.tar
+# XC8_18F46J11 configuration
+CND_ARTIFACT_DIR_XC8_18F46J11=dist/XC8_18F46J11/production
+CND_ARTIFACT_NAME_XC8_18F46J11=First_Test_Upload_version.X.production.hex
+CND_ARTIFACT_PATH_XC8_18F46J11=dist/XC8_18F46J11/production/First_Test_Upload_version.X.production.hex
+CND_PACKAGE_DIR_XC8_18F46J11=${CND_DISTDIR}/XC8_18F46J11/package
+CND_PACKAGE_NAME_XC8_18F46J11=firsttestuploadversion.x.tar
+CND_PACKAGE_PATH_XC8_18F46J11=${CND_DISTDIR}/XC8_18F46J11/package/firsttestuploadversion.x.tar
+# XC8_18F97J60 configuration
+CND_ARTIFACT_DIR_XC8_18F97J60=dist/XC8_18F97J60/production
+CND_ARTIFACT_NAME_XC8_18F97J60=First_Test_Upload_version.X.production.hex
+CND_ARTIFACT_PATH_XC8_18F97J60=dist/XC8_18F97J60/production/First_Test_Upload_version.X.production.hex
+CND_PACKAGE_DIR_XC8_18F97J60=${CND_DISTDIR}/XC8_18F97J60/package
+CND_PACKAGE_NAME_XC8_18F97J60=firsttestuploadversion.x.tar
+CND_PACKAGE_PATH_XC8_18F97J60=${CND_DISTDIR}/XC8_18F97J60/package/firsttestuploadversion.x.tar

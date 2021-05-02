@@ -1,0 +1,419 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K20 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"54 E:\IT SLIGO_Electronics and Computer Engineering\Year 2 Level 7 September 2020\Level 7 Final Project\MPLAB code PIC18F45K20\First Test Upload version.X\interrupts.c
+[v _high_isr high_isr `IIH(v  1 e 1 0 ]
+"243
+[v _low_isr low_isr `IIL(v  1 e 1 0 ]
+"283
+[v _debounce debounce `(uc  1 e 1 0 ]
+"310
+[v _debounceLaserBeam debounceLaserBeam `(uc  1 e 1 0 ]
+"338
+[v _debounceVisionSystem debounceVisionSystem `(uc  1 e 1 0 ]
+"67 E:\IT SLIGO_Electronics and Computer Engineering\Year 2 Level 7 September 2020\Level 7 Final Project\MPLAB code PIC18F45K20\First Test Upload version.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"229
+[v _debounceStart debounceStart `(uc  1 e 1 0 ]
+"24 E:\IT SLIGO_Electronics and Computer Engineering\Year 2 Level 7 September 2020\Level 7 Final Project\MPLAB code PIC18F45K20\First Test Upload version.X\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+"28 E:\IT SLIGO_Electronics and Computer Engineering\Year 2 Level 7 September 2020\Level 7 Final Project\MPLAB code PIC18F45K20\First Test Upload version.X\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+[s S171 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"618 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f45k20.h
+[s S180 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+]
+[s S187 . 1 `uc 1 C12IN0M 1 0 :1:0 
+`uc 1 C12IN1M 1 0 :1:1 
+`uc 1 C2INP 1 0 :1:2 
+`uc 1 C1INP 1 0 :1:3 
+`uc 1 C1OUT 1 0 :1:4 
+`uc 1 C2OUT 1 0 :1:5 
+]
+[s S194 . 1 `uc 1 C12IN0N 1 0 :1:0 
+`uc 1 C12IN1N 1 0 :1:1 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 SS 1 0 :1:5 
+]
+[s S201 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_SS 1 0 :1:5 
+]
+[s S204 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFN 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nSS 1 0 :1:5 
+]
+[s S209 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CVREF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S214 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S217 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S221 . 1 `S171 1 . 1 0 `S180 1 . 1 0 `S187 1 . 1 0 `S194 1 . 1 0 `S201 1 . 1 0 `S204 1 . 1 0 `S209 1 . 1 0 `S214 1 . 1 0 `S217 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES221  1 e 1 @3968 ]
+[s S303 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"841
+[s S312 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S321 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S330 . 1 `uc 1 FLT0 1 0 :1:0 
+`uc 1 C12IN3M 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 C12IN2M 1 0 :1:3 
+]
+[s S335 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 C12IN3N 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 C12IN2N 1 0 :1:3 
+]
+[s S340 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S343 . 1 `S303 1 . 1 0 `S312 1 . 1 0 `S321 1 . 1 0 `S330 1 . 1 0 `S335 1 . 1 0 `S340 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES343  1 e 1 @3969 ]
+[s S29 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"1044
+[s S38 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S47 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S56 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S58 . 1 `uc 1 T3CKI 1 0 :1:0 
+]
+[s S60 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S64 . 1 `S29 1 . 1 0 `S38 1 . 1 0 `S47 1 . 1 0 `S56 1 . 1 0 `S58 1 . 1 0 `S60 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES64  1 e 1 @3970 ]
+[s S107 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"1221
+[s S116 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S125 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S130 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S133 . 1 `S107 1 . 1 0 `S116 1 . 1 0 `S125 1 . 1 0 `S130 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES133  1 e 1 @3971 ]
+[s S736 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"2064
+[u S754 . 1 `S736 1 . 1 0 `S171 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES754  1 e 1 @3986 ]
+[s S656 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"2286
+[u S674 . 1 `S656 1 . 1 0 `S303 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES674  1 e 1 @3987 ]
+[s S696 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"2508
+[u S714 . 1 `S696 1 . 1 0 `S29 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES714  1 e 1 @3988 ]
+[s S615 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2730
+[u S633 . 1 `S615 1 . 1 0 `S107 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES633  1 e 1 @3989 ]
+"4221
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"4233
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"4245
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4257
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"6576
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"7436
+[v _ANS10 ANS10 `VEb  1 e 0 @31738 ]
+"7442
+[v _ANS12 ANS12 `VEb  1 e 0 @31740 ]
+"7463
+[v _ANS8 ANS8 `VEb  1 e 0 @31736 ]
+"7487
+[v _BRG16 BRG16 `VEb  1 e 0 @32195 ]
+"7490
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"7691
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"7841
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"7913
+[v _INT0IE INT0IE `VEb  1 e 0 @32660 ]
+"7916
+[v _INT0IF INT0IF `VEb  1 e 0 @32657 ]
+"7928
+[v _INT1IE INT1IE `VEb  1 e 0 @32643 ]
+"7931
+[v _INT1IF INT1IF `VEb  1 e 0 @32640 ]
+"7949
+[v _INT2IE INT2IE `VEb  1 e 0 @32644 ]
+"7952
+[v _INT2IF INT2IF `VEb  1 e 0 @32641 ]
+"7961
+[v _INTEDG0 INTEDG0 `VEb  1 e 0 @32654 ]
+"7964
+[v _INTEDG1 INTEDG1 `VEb  1 e 0 @32653 ]
+"7967
+[v _INTEDG2 INTEDG2 `VEb  1 e 0 @32652 ]
+"7991
+[v _IRCF0 IRCF0 `VEb  1 e 0 @32412 ]
+"7994
+[v _IRCF1 IRCF1 `VEb  1 e 0 @32413 ]
+"7997
+[v _IRCF2 IRCF2 `VEb  1 e 0 @32414 ]
+"8441
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"8468
+[v _PSA PSA `VEb  1 e 0 @32427 ]
+"8627
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"8630
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"8789
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"8867
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"8873
+[v _T08BIT T08BIT `VEb  1 e 0 @32430 ]
+"8879
+[v _T0CS T0CS `VEb  1 e 0 @32429 ]
+"8888
+[v _T0PS0 T0PS0 `VEb  1 e 0 @32424 ]
+"8891
+[v _T0PS1 T0PS1 `VEb  1 e 0 @32425 ]
+"8894
+[v _T0PS2 T0PS2 `VEb  1 e 0 @32426 ]
+"8969
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"8972
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"8978
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"9050
+[v _TRISB0 TRISB0 `VEb  1 e 0 @31896 ]
+"9053
+[v _TRISB1 TRISB1 `VEb  1 e 0 @31897 ]
+"9104
+[v _TRISD2 TRISD2 `VEb  1 e 0 @31914 ]
+"9107
+[v _TRISD3 TRISD3 `VEb  1 e 0 @31915 ]
+"9185
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"9194
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"26 E:\IT SLIGO_Electronics and Computer Engineering\Year 2 Level 7 September 2020\Level 7 Final Project\MPLAB code PIC18F45K20\First Test Upload version.X\main.c
+[v _received_char received_char `uc  1 e 1 0 ]
+"27
+[v _received_flag received_flag `uc  1 e 1 0 ]
+"28
+[v _rejects rejects `uc  1 e 1 0 ]
+"29
+[v _good good `uc  1 e 1 0 ]
+"30
+[v _totalamount totalamount `uc  1 e 1 0 ]
+"33
+[v _status status `uc  1 e 1 0 ]
+"67
+[v _main main `(v  1 e 1 0 ]
+{
+"226
+} 0
+"229
+[v _debounceStart debounceStart `(uc  1 e 1 0 ]
+{
+"231
+[v debounceStart@state state `uc  1 a 1 9 ]
+"232
+[v debounceStart@count count `uc  1 a 1 8 ]
+"254
+} 0
+"28 E:\IT SLIGO_Electronics and Computer Engineering\Year 2 Level 7 September 2020\Level 7 Final Project\MPLAB code PIC18F45K20\First Test Upload version.X\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+{
+"166
+} 0
+"24 E:\IT SLIGO_Electronics and Computer Engineering\Year 2 Level 7 September 2020\Level 7 Final Project\MPLAB code PIC18F45K20\First Test Upload version.X\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+{
+"31
+} 0
+"243 E:\IT SLIGO_Electronics and Computer Engineering\Year 2 Level 7 September 2020\Level 7 Final Project\MPLAB code PIC18F45K20\First Test Upload version.X\interrupts.c
+[v _low_isr low_isr `IIL(v  1 e 1 0 ]
+{
+"278
+} 0
+"54
+[v _high_isr high_isr `IIH(v  1 e 1 0 ]
+{
+"239
+} 0
+"338
+[v _debounceVisionSystem debounceVisionSystem `(uc  1 e 1 0 ]
+{
+"340
+[v debounceVisionSystem@state state `uc  1 a 1 2 ]
+"341
+[v debounceVisionSystem@count count `uc  1 a 1 1 ]
+"363
+} 0
+"310
+[v _debounceLaserBeam debounceLaserBeam `(uc  1 e 1 0 ]
+{
+"313
+[v debounceLaserBeam@count count `uc  1 a 1 2 ]
+"312
+[v debounceLaserBeam@state state `uc  1 a 1 1 ]
+"335
+} 0
+"283
+[v _debounce debounce `(uc  1 e 1 0 ]
+{
+"285
+[v debounce@state state `uc  1 a 1 2 ]
+"286
+[v debounce@count count `uc  1 a 1 1 ]
+"308
+} 0
